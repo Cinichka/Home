@@ -13,7 +13,7 @@ import ARKit
 class ViewController: UIViewController, ARSCNViewDelegate {
 	
 	@IBOutlet var sceneView: ARSCNView!
-	let positionTreeArray = [SCNVector3(0.2, -0.2, -2.5), SCNVector3(-0.2, -0.2, -2.5),SCNVector3(0.8, -0.2, -3.25),SCNVector3(-0.8, -0.2, -3.25), SCNVector3(0.2, -0.2, -4) , SCNVector3(-0.2, -0.2, -4), SCNVector3(0.2, -0.2, -4)]
+	let positionTreeArray = [SCNVector3(0.2, -0.2, -2.5), SCNVector3(-0.2, -0.2, -2.5),SCNVector3(0.8, -0.2, -3),SCNVector3(-0.8, -0.2, -3),  SCNVector3(-0.2, -0.2, -3.5), SCNVector3(0.2, -0.2, -3.5)]
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
